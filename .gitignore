@@ -45,8 +45,8 @@ testem.log
 .DS_Store
 Thumbs.db
 
-angularAcessibilidade/node_modules
-angularArquiteturaFormularios/api/node_modules
-angularArquiteturaFormularios/gatitobook/node_modules
-AngularTestes1/node_modules
-AngularTestes2/node_modules
+/angularAcessibilidade/node_modules
+/angularArquiteturaFormularios/api/node_modules
+/angularArquiteturaFormularios/gatitobook/node_modules
+/AngularTestes1/node_modules
+/AngularTestes2/node_modules
