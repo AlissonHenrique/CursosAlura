@@ -1,13 +1,11 @@
 
+
 import { SimpleChange, SimpleChanges } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-
 import { PhotoBoardComponent } from './photo-board.component';
-import { PhotoBoardModule } from './photo-board.module';
+import { PhotoBoardmodule } from './photo-board.module';
 import { buildPhotoList } from './test/build-photo-list';
-
-
 
 describe(PhotoBoardComponent.name, () => {
   let fixture: ComponentFixture<PhotoBoardComponent>;
@@ -15,7 +13,7 @@ describe(PhotoBoardComponent.name, () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PhotoBoardModule]
+      imports: [PhotoBoardmodule]
     }).compileComponents();
 
     fixture = TestBed.createComponent(PhotoBoardComponent);
